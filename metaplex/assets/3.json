@@ -1,0 +1,56 @@
+{
+  "name": "Solana NFT 3",
+  "symbol": "",
+  "description": "Celebrating Solana",
+  "image": "image.png",
+  "seller_fee_basis_points": 250,
+  "collection": {
+    "name": "NFT Collection",
+    "family": "NFT"
+  },
+  "properties": {
+    "files": [
+      {
+        "url": "image.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "4YLrFJhXnnjuLK1e8YMVoGhG1CtC26C8tvu5PZw61fog",
+        "share": 100
+      }
+    ]
+  },
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Eyeball",
+      "value": "Red"
+    },
+    {
+      "trait_type": "Eye color",
+      "value": "Red"
+    },
+    {
+      "trait_type": "Iris",
+      "value": "Small"
+    },
+    {
+      "trait_type": "Shine",
+      "value": "Shapes"
+    },
+    {
+      "trait_type": "Bottom lid",
+      "value": "Middle"
+    },
+    {
+      "trait_type": "Top lid",
+      "value": "Middle"
+    }
+  ]
+}

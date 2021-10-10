@@ -1,0 +1,48 @@
+PUB: 67gNmFpX2Uchn4htTpquedGci9TqvzKRJma14oqL4MXd
+Phrase: enlist april walnut ethics pupil burst mechanic flavor tomorrow neutral lemon hedgehog
+candy machine with publickey: 8qqZcjUpApgm4S7BdJPKEid5DeqN2cW65b775bfZKE3x
+
+{"program":{"uuid":"8qqZcj","config":"8qqZcjUpApgm4S7BdJPKEid5DeqN2cW65b775bfZKE3x"},"items":{"0":{"link":"https://arweave.net/FRVpTQJkzH5Mni8wyEoVHUZ1t6T9UsxEx6O5qUhQEtg","name":"Solana NFT 8","onChain":true},"1":{"link":"https://arweave.net/m_vrgMMBoo8v0WuuwP2tPD1AlD1AN3ZgXNFlTHAGDRc","name":"Solana NFT 9","onChain":true},"2":{"link":"https://arweave.net/wYFbeQykjPuyq0jSUCXJ3RfK2_d2U5dYdkxb2Arwcqo","name":"Solana NFT 2","onChain":true},"3":{"link":"https://arweave.net/XJqMdecOn2UBXqzQ0QziX173ZTt-1vSILPW_2ZzFUwg","name":"Solana NFT 3","onChain":true},"4":{"link":"https://arweave.net/gNPn9N06rvTnRYzORzC2QD_41D3Np3sHmMvU7YZKsf4","name":"Solana NFT 4","onChain":true},"5":{"link":"https://arweave.net/iPEhrNjwagQYe1WJ2R0sYGdK8YOxiN2z3QsKwz30GRE","name":"Solana NFT 5","onChain":true},"6":{"link":"https://arweave.net/wHfhlWcDpHHcCv7yyWdtpxa4T5XAGlNbnJnYgK4z0UY","name":"Solana NFT 6","onChain":true},"7":{"link":"https://arweave.net/9Yo-J-V89uJuCo3nPOg_Ggm27wxy-m3PX71eQge8H8o","name":"Solana NFT 7","onChain":true}},"env":"devnet","cacheName":"temp","authority":"67gNmFpX2Uchn4htTpquedGci9TqvzKRJma14oqL4MXd","candyMachineAddress":"EJSQvx5MeD2dRhsC4VaxjBDXqQbVSP68EdcjpKqEtKzs"}
+
+candy machine pubkey: EJSQvx5MeD2dRhsC4VaxjBDXqQbVSP68EdcjpKqEtKzs
+
+timestamp: 1633248000
+
+
+COMMANDS
+ts-node js/packages/cli/src/candy-machine-cli.ts upload ./assets --env devnet --keypair ~/config/solana/devnet-test.json
+
+{
+  "name": "Headphone NFT",
+  "symbol": "",
+  "description": "Celebratory Solflare NFT for the Solflare X launch",
+  "seller_fee_basis_points": 250,
+  "image": "image.png",
+  "animation_url": "https://www.arweave.net/efgh1234?ext=mp4",
+  "external_url": "https://solflare.com",
+  "attributes": [
+    {
+      "trait_type": "Questbook",
+      "value": "Discord"
+    }
+  ],
+  "collection": {
+     "name": "NFT Collection",
+     "family": "NFT"
+  },
+  "properties": {
+    "files": [
+      {
+        "uri": "image.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "EucRzmqctfMFmE7qEQnqZ8eieGLGtzY3bXNgrNKWKqHx",
+        "share": 100
+      }
+    ]
+  }
+}

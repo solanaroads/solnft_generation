@@ -1,12 +1,14 @@
 {
-  "name": "Solana NFT 9",
-  "symbol": "",
-  "description": "Celebrating Solana",
+  "name": "Solana NFT #1",
+  "description": "Learning Generating NFTs",
   "image": "image.png",
-  "seller_fee_basis_points": 250,
+  "edition": 1,
+  "date": 1633885921585,
+  "symbol": "",
+  "seller_fee_basis_points": 0,
   "collection": {
-    "name": "NFT Collection",
-    "family": "NFT"
+    "name": "Solana Quest",
+    "family": "Largest Crypto Ecosystem"
   },
   "properties": {
     "files": [
@@ -18,7 +20,7 @@
     "category": "image",
     "creators": [
       {
-        "address": "4YLrFJhXnnjuLK1e8YMVoGhG1CtC26C8tvu5PZw61fog",
+        "address": "JD1eqRZpo4jD4GsESMNWJZoeuomnaDutjNxQDLKCVxAA",
         "share": 100
       }
     ]
@@ -30,15 +32,15 @@
     },
     {
       "trait_type": "Eyeball",
-      "value": "White"
+      "value": "Red"
     },
     {
       "trait_type": "Eye color",
-      "value": "Cyan"
+      "value": "Yellow"
     },
     {
       "trait_type": "Iris",
-      "value": "Small"
+      "value": "Large"
     },
     {
       "trait_type": "Shine",
@@ -50,7 +52,7 @@
     },
     {
       "trait_type": "Top lid",
-      "value": "Low"
+      "value": "Middle"
     }
   ]
 }

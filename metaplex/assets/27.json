@@ -1,0 +1,58 @@
+{
+  "name": "Solana NFT #27",
+  "description": "Learning Generating NFTs",
+  "image": "image.png",
+  "edition": 27,
+  "date": 1633885926040,
+  "symbol": "",
+  "seller_fee_basis_points": 0,
+  "collection": {
+    "name": "Solana Quest",
+    "family": "Largest Crypto Ecosystem"
+  },
+  "properties": {
+    "files": [
+      {
+        "url": "image.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "JD1eqRZpo4jD4GsESMNWJZoeuomnaDutjNxQDLKCVxAA",
+        "share": 100
+      }
+    ]
+  },
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Eyeball",
+      "value": "Red"
+    },
+    {
+      "trait_type": "Eye color",
+      "value": "Red"
+    },
+    {
+      "trait_type": "Iris",
+      "value": "Small"
+    },
+    {
+      "trait_type": "Shine",
+      "value": "Shapes"
+    },
+    {
+      "trait_type": "Bottom lid",
+      "value": "High"
+    },
+    {
+      "trait_type": "Top lid",
+      "value": "High"
+    }
+  ]
+}

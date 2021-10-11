@@ -10,7 +10,7 @@ const baseUri = "image.png";
 
 const layerConfigurations = [
   {
-    growEditionSizeTo: 10,
+    growEditionSizeTo: 100,
     layersOrder: [
       { name: "Background" },
       { name: "Eyeball" },
@@ -38,6 +38,7 @@ const background = {
 };
 
 const extraMetadata = {
+  "symbol":"",
   "seller_fee_basis_points":0,//this defines your royalties (250-2.5%)
   "collection":{
     "name":"Solana Quest", // the name of your collection
@@ -53,7 +54,7 @@ const extraMetadata = {
     "category":"image",
     "creators":[
       {
-        "address":"",
+        "address":"JD1eqRZpo4jD4GsESMNWJZoeuomnaDutjNxQDLKCVxAA",
         "share":100
       }
     ]
